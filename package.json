@@ -1,0 +1,33 @@
+{
+  "name": "simple-hapi-knex-restapi-boilerplate",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "author": "Alfian Wahid",
+  "description": "Sebuah boilerplate atau stater kit sederhana untuk memulai pengembangan REST-API di Node.js menggunakan framework hapi & knex.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "prod": "cross-env NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alfianwahid/simple-hapi-knex-restapi-boilerplate.git"
+  },
+  "keywords": [
+    "hapijs",
+    "knexjs",
+    "mysql"
+  ],
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/joi": "^17.1.1",
+    "cross-env": "^7.0.2",
+    "knex": "^0.21.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
